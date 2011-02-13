@@ -1,7 +1,7 @@
 class EventbriteExtension < Radiant::Extension
   version '0.1'
   description 'Provides a few Radius Tags to access data from the EventBrite API'
-  url "http://github.com/gerrit/radiant-eventbrite-extension"
+  url "http://ext.radiantcms.org/extensions/265-eventbrite"
   
   extension_config do |config|
     config.gem 'eventbright'

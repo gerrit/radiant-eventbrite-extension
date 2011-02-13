@@ -5,7 +5,7 @@ begin
     gem.summary = 'Eventbrite Extension for Radiant CMS'
     gem.description = 'Provides a few Radius Tags to access data from the EventBrite API'
     gem.email = 'gerrit@gerritkaiser.de'
-    gem.homepage = 'http://github.com/gerrit/radiant-eventbrite-extension'
+    gem.homepage = 'http://ext.radiantcms.org/extensions/265-eventbrite'
     gem.authors = ['Gerrit Kaiser']
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
