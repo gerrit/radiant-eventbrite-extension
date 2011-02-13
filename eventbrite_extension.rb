@@ -1,5 +1,5 @@
 class EventbriteExtension < Radiant::Extension
-  version '0.1'
+  version File.read(File.join(File.dirname(__FILE__), 'VERSION'))
   description 'Provides a few Radius Tags to access data from the EventBrite API'
   url "http://ext.radiantcms.org/extensions/265-eventbrite"
   

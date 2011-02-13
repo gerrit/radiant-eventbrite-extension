@@ -7,6 +7,7 @@ begin
     gem.email = 'gerrit@gerritkaiser.de'
     gem.homepage = 'http://ext.radiantcms.org/extensions/265-eventbrite'
     gem.authors = ['Gerrit Kaiser']
+    gem.add_dependency 'eventbright', '~>0.2.3'
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
