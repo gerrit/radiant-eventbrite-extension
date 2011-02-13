@@ -1,0 +1,27 @@
+#Eventbrite
+
+Provides a few Radius Tags to access data from the EventBrite API
+
+Right now, functionality is limited to getting the events of a user,
+iterating over them and displaying their data (useful e.g. for Events listings).
+
+The Tag names closely align with the fields the EventBrite API returns, see
+http://developer.eventbrite.com/doc/users/user_list_events/
+
+##Example
+
+    <r:eventbrite user="1235467890">
+      <h2>Event Listing</h2>
+      <ul>
+      <r:events:each>
+        <li><a href="<r:url />"><r:title /> - starts on <r:start_date format="%D" /></a></li>
+      </r:events:each>
+      </ul>
+    </r:eventbrite>
+
+##Todo
+
+- Read Venue Details
+- Read Ticket/Pricing Details
+- Event Searching functionality
+- Write functionality
